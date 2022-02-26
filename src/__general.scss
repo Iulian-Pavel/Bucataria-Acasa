@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+//-----------------------------MIXINS------------------------------------//
+
+@mixin displayFlex($display, $jc-content, $al-items, $flex-dir ) {
+    display: $display;
+    justify-content: $jc-content;
+    align-items: $al-items;
+    flex-direction: $flex-dir;
+}
+
+@mixin removeDefaultStyles($background, $outline, $border) {
+    background: $background;
+    outline: $outline;
+    border: $border;
+}
+
+//-----------------------------FONTS--------------------------------------//
+
+$mainFont: 'Pacifico', cursive;
+$secondaryFont: 'Comfortaa', cursive;
