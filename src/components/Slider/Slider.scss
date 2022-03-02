@@ -6,12 +6,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    h1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: $secondaryFont;
+        font-size: 48px;
+    }
+    p {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: $secondaryFont;
+    }
 }
 
 .image {
     width: 1000px;
     height: auto;
     border-radius: 10px;
+    filter: brightness(50%)
 }
 
 .slide {
@@ -21,6 +39,6 @@
 
 .slide.active {
     opacity: 1;
-    transition: 1s;
+    transition-duration: 1s;
     transform: scale(1.08);
 }

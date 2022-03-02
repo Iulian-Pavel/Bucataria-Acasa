@@ -1,20 +1,15 @@
-import image1 from './images/pexels-adonyi-gábor-1414651.jpg'
-import image2 from './images/pexels-daria-shevtsova-1095550.jpg'
-import image3 from './images/pexels-jonathan-borba-2983101.jpg'
-import image4 from './images/pexels-lisa-fotios-1279330.jpg';
-
 const SliderData = [
     {
-        image: image1
+        image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'
     },
     {
-        image: image2
+        image: 'https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
     },
     {
-        image: image3
+        image: 'https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
     },
     {
-        image: image4
+        image: 'https://images.unsplash.com/photo-1475090169767-40ed8d18f67d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'
     }
 ]
 

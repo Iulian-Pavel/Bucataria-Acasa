@@ -25,34 +25,33 @@ body, html {
           align-items: center;
 }
 
-.image {
-  width: 1000px;
-  height: 600px;
-  border-radius: 10px;
-}
-
-.right-arrow {
+.slider h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-size: 3rem;
-  color: black;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Comfortaa", cursive;
+  font-size: 48px;
 }
 
-.right-arrow {
+.slider p {
   position: absolute;
-  top: 50%;
-  right: 32px;
-  font-size: 3rem;
-  color: rebeccapurple;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Comfortaa", cursive;
 }
 
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: 32px;
-  font-size: 3rem;
-  color: red;
+.image {
+  width: 1000px;
+  height: auto;
+  border-radius: 10px;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 .slide {
@@ -63,8 +62,8 @@ body, html {
 
 .slide.active {
   opacity: 1;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   -webkit-transform: scale(1.08);
           transform: scale(1.08);
 }
