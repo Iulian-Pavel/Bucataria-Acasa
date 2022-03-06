@@ -10,4 +10,36 @@
 body, html {
   overflow-x: hidden;
 }
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 95vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("https://images.pexels.com/photos/4013725/pexels-photo-4013725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/4013725/pexels-photo-4013725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  color: white;
+  font-family: "Comfortaa", cursive;
+  background-size: cover;
+}
+
+.main h1 {
+  margin-bottom: 5%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main p {
+  font-size: 24px;
+}
 /*# sourceMappingURL=Main.css.map */

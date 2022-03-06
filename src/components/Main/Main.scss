@@ -1,1 +1,23 @@
 @import '../../_general';
+
+.main {
+    @include displayFlex(flex, center, center, column);
+    height: 95vh;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('https://images.pexels.com/photos/4013725/pexels-photo-4013725.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color: white;
+    font-family: $secondaryFont;
+    background-size: cover;
+    h1 {
+        margin-bottom: 5%;
+        font-size: 40px;
+        text-align: center;
+    }
+    p {
+        font-size: 24px;
+    }
+}
