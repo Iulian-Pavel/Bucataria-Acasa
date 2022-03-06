@@ -28,8 +28,8 @@ const Slider = ({ slides }) => {
             {index === current && (
               <img src={slide.image} width="200" className="image" />
             )}
-            <h1>Text pizdos</h1>
-            <p>Mai mult text pizdos</p>
+            <h1>Gustul Bucatariei Italiene</h1>
+            <p>La tine acasa</p>
           </div>
         );
       })}

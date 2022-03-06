@@ -34,11 +34,12 @@ body, html {
   color: white;
   font-family: "Comfortaa", cursive;
   font-size: 48px;
+  text-align: center;
 }
 
 .slider p {
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);

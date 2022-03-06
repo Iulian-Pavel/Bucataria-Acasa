@@ -25,7 +25,6 @@ nav {
       -ms-flex-direction: 0;
           flex-direction: 0;
   width: 100%;
-  border: 1px solid red;
 }
 
 nav .logo {
@@ -57,7 +56,6 @@ nav .burger-icon {
   list-style: none;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  border: 1px solid red;
   position: absolute;
   right: 0;
   -webkit-transition: 0.5s ease-in-out;
