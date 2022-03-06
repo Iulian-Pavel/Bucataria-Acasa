@@ -17,7 +17,7 @@ function Navbar() {
       </nav>
       <div className={open ? "list-items responsive" : "list-items"}>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
           <a href="#">About</a>
