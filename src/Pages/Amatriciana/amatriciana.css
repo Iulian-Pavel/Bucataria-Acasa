@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.instructiuni {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Comfortaa", cursive;
+}
+
+.instructiuni .prezentare {
+  width: 50%;
+  margin-top: 2%;
+  line-height: 30px;
+}
+
+.instructiuni .ingrediente h1 {
+  margin-bottom: 5%;
+}
+
+.instructiuni .ingrediente p:not(:last-child) {
+  margin-bottom: 5%;
+}
+
+.instructiuni .preparare {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.instructiuni .preparare p:not(:last-child) {
+  margin-bottom: 2%;
+}
+
+.instructiuni .conservare {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.instructiuni .conservare p:not(:last-child) {
+  margin-bottom: 2%;
+}
+/*# sourceMappingURL=amatriciana.css.map */

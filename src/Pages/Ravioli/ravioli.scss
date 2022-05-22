@@ -1,0 +1,33 @@
+@import '../../_general';
+
+.instructiuni {
+    @include displayFlex(flex, center, center, column);
+    font-family: $secondaryFont;
+    .prezentare {
+        width: 50%;
+        margin-top: 2%;
+        line-height: 30px;
+    }
+    .ingrediente {
+        h1 {
+            margin-bottom: 5%;
+        }
+        p:not(:last-child) {
+            margin-bottom: 5%;
+        }
+    }
+    .preparare {
+        margin-top: 2%;
+        text-align: center;
+        p:not(:last-child) {
+            margin-bottom: 2%;
+        }
+    }
+    .conservare {
+        text-align: center;
+        margin-top: 1%;
+        p:not(:last-child) {
+            margin-bottom: 2%;
+        }
+    }
+}

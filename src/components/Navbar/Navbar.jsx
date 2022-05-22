@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <>
       <nav>
-        <div className="logo">Bucataria Acasa</div>
+        <Link to="/" style={{textDecoration: 'none', color: 'white'}}><div className="logo">Bucataria Acasa</div></Link>
         <div className="burger-icon" onClick={() => setOpen(!open)}>
           <img src={open ? close_burger : burger_icon} width="40" />
         </div>
