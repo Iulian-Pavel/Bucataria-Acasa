@@ -17,13 +17,10 @@ function Navbar() {
       </nav>
       <div className={open ? "list-items responsive" : "list-items"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Acasa</Link>
         </li>
         <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <Link to="/recipes">Recipes</Link>
+          <Link to="/recipes">Retete</Link>
         </li>
       </div>
     </>

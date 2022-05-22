@@ -7,8 +7,8 @@ nav {
   .logo {
     font-family: $mainFont;
     font-size: 24px;
-    color: white;
     text-shadow: 2px 2px black;
+    color: white;
   }
   .burger-icon {
     display: block;
@@ -22,7 +22,7 @@ nav {
   width: 30%;
   font-family: $secondaryFont;
   list-style: none;
-  transform: translateX(100%);
+  transform: translateX(150%);
   position: absolute;
   right: 0;
   transition: 0.5s ease-in-out;
